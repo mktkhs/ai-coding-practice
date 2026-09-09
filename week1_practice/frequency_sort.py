@@ -12,7 +12,8 @@ def sort_by_frequency(items):
 
 
 if __name__ == "__main__":
-    sample = ["apple", "banana", "apple", "orange", "banana", "apple", "grape", "orange"]
+    sample = ["apple", "banana", "apple", "or,ange", "banana", "apple", "grape", "orange"]
+    # 要素内に,が含まれていても正常に動作する
     result = sort_by_frequency(sample)
     print("元のリスト:", sample)
     print("頻度順:", result)
